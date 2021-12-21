@@ -1,0 +1,14 @@
+{
+  "name": "node-streams-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
