@@ -82,5 +82,5 @@ function dataEndpoint(_request, response) {
  */
 function randomEndpoint(_request, response) {
   response.setHeader("Content-Type", "application/json");
-  streamText(Math.random().toFixed(20), response).pipe(response);
+  streamText(Math.random().toFixed(20)).pipe(response);
 }
