@@ -2,10 +2,10 @@ import fs from "node:fs";
 
 import {
   dataFilePath,
-  frontendPath,
   frontendAppPath,
-  streamText,
+  frontendPath,
   frontendStyles,
+  streamText,
 } from "./utils.js";
 
 /**

@@ -1,7 +1,7 @@
 import http from "node:http";
 
-import { PORT, HOST } from "./utils.js";
-import {requestListener} from "./routes.js";
+import { HOST, PORT } from "./utils.js";
+import { requestListener } from "./routes.js";
 
 const server = http.createServer(requestListener);
 
