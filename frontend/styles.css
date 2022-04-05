@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(236, 152, 42);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}

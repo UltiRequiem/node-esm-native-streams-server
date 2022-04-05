@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon . --ext html,js,json"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
